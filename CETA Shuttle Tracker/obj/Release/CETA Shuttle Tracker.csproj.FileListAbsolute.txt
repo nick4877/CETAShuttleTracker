@@ -8,4 +8,3 @@ C:\Users\Smith\Documents\SchoolProjects\CETA\CETA Shuttle Tracker\obj\Release\CE
 C:\Users\Smith\Documents\SchoolProjects\CETA\CETA Shuttle Tracker\obj\Release\CETA Shuttle Tracker.csproj.CoreCompileInputs.cache
 C:\Users\Smith\Documents\SchoolProjects\CETA\CETA Shuttle Tracker\obj\Release\CETA Shuttle Tracker.exe
 C:\Users\Smith\Documents\SchoolProjects\CETA\CETA Shuttle Tracker\obj\Release\CETA Shuttle Tracker.pdb
-C:\Users\Smith\Documents\SchoolProjects\CETA\CETA Shuttle Tracker\obj\Release\CETA Shuttle Tracker.csprojResolveAssemblyReference.cache

@@ -101,7 +101,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.SettingsExitButton);
-            this.panel1.Location = new System.Drawing.Point(12, 72);
+            this.panel1.Location = new System.Drawing.Point(0, 27);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1072, 608);
             this.panel1.TabIndex = 1;
@@ -111,11 +111,11 @@
             // MainScreen
             // 
             this.MainScreen.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.MainScreen.Controls.Add(this.label5);
             this.MainScreen.Controls.Add(this.label6);
             this.MainScreen.Controls.Add(this.label8);
             this.MainScreen.Controls.Add(this.label9);
             this.MainScreen.Controls.Add(this.label7);
-            this.MainScreen.Controls.Add(this.label5);
             this.MainScreen.Controls.Add(this.pictureBox1);
             this.MainScreen.Location = new System.Drawing.Point(0, 27);
             this.MainScreen.Name = "MainScreen";
@@ -171,7 +171,7 @@
             // 
             // trackBar1
             // 
-            this.trackBar1.Location = new System.Drawing.Point(279, 151);
+            this.trackBar1.Location = new System.Drawing.Point(288, 151);
             this.trackBar1.Maximum = 5;
             this.trackBar1.Minimum = 1;
             this.trackBar1.Name = "trackBar1";
@@ -204,9 +204,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(185, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(188, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(884, 562);
+            this.pictureBox1.Size = new System.Drawing.Size(884, 571);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -214,7 +215,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(3, 45);
+            this.label5.Location = new System.Drawing.Point(9, 45);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(179, 23);
             this.label5.TabIndex = 1;
@@ -276,6 +277,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.Form1_Load_1);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);
