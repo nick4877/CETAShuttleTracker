@@ -20,6 +20,8 @@ namespace CETA_Shuttle_Tracker
             Thread.Sleep(5000);
             InitializeComponent();
             t.Abort();
+
+            //Makes the main screen visable and and loads time and initializes a variable in settings
             MainScreen.Visible = true;
             label4.Text = "1";
             Timer();

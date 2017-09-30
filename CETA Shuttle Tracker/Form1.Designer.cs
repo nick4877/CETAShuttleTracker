@@ -54,6 +54,9 @@
             this.TimeText = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.DateTimer = new System.Windows.Forms.Timer(this.components);
+            this.cetaShuttleTrackerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.enginneringProjectByNicholasSmithToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.v01ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
@@ -83,9 +86,13 @@
             // 
             // HelpButton
             // 
+            this.HelpButton.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cetaShuttleTrackerToolStripMenuItem,
+            this.enginneringProjectByNicholasSmithToolStripMenuItem,
+            this.v01ToolStripMenuItem});
             this.HelpButton.Name = "HelpButton";
-            this.HelpButton.Size = new System.Drawing.Size(44, 20);
-            this.HelpButton.Text = "Help";
+            this.HelpButton.Size = new System.Drawing.Size(52, 20);
+            this.HelpButton.Text = "About";
             // 
             // ExitButton
             // 
@@ -325,6 +332,24 @@
             this.DateTimer.Enabled = true;
             this.DateTimer.Tick += new System.EventHandler(this.DateTimer_Tick);
             // 
+            // cetaShuttleTrackerToolStripMenuItem
+            // 
+            this.cetaShuttleTrackerToolStripMenuItem.Name = "cetaShuttleTrackerToolStripMenuItem";
+            this.cetaShuttleTrackerToolStripMenuItem.Size = new System.Drawing.Size(277, 22);
+            this.cetaShuttleTrackerToolStripMenuItem.Text = "Ceta Shuttle tracker";
+            // 
+            // enginneringProjectByNicholasSmithToolStripMenuItem
+            // 
+            this.enginneringProjectByNicholasSmithToolStripMenuItem.Name = "enginneringProjectByNicholasSmithToolStripMenuItem";
+            this.enginneringProjectByNicholasSmithToolStripMenuItem.Size = new System.Drawing.Size(277, 22);
+            this.enginneringProjectByNicholasSmithToolStripMenuItem.Text = "Enginnering Project by Nicholas Smith";
+            // 
+            // v01ToolStripMenuItem
+            // 
+            this.v01ToolStripMenuItem.Name = "v01ToolStripMenuItem";
+            this.v01ToolStripMenuItem.Size = new System.Drawing.Size(277, 22);
+            this.v01ToolStripMenuItem.Text = "Version 0.1";
+            // 
             // Form1
             // 
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -381,6 +406,9 @@
         private System.Windows.Forms.Label TimeText;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Timer DateTimer;
+        private System.Windows.Forms.ToolStripMenuItem cetaShuttleTrackerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem enginneringProjectByNicholasSmithToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem v01ToolStripMenuItem;
     }
 }
 
