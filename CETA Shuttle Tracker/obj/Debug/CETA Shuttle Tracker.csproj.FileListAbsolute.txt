@@ -1,0 +1,12 @@
+C:\Users\Smith\source\repos\CETA Shuttle Tracker\CETA Shuttle Tracker\bin\Debug\CETA Shuttle Tracker.exe.config
+C:\Users\Smith\source\repos\CETA Shuttle Tracker\CETA Shuttle Tracker\bin\Debug\CETA Shuttle Tracker.exe
+C:\Users\Smith\source\repos\CETA Shuttle Tracker\CETA Shuttle Tracker\bin\Debug\CETA Shuttle Tracker.pdb
+C:\Users\Smith\source\repos\CETA Shuttle Tracker\CETA Shuttle Tracker\obj\Debug\CETA Shuttle Tracker.csprojResolveAssemblyReference.cache
+C:\Users\Smith\source\repos\CETA Shuttle Tracker\CETA Shuttle Tracker\obj\Debug\CETA_Shuttle_Tracker.Form1.resources
+C:\Users\Smith\source\repos\CETA Shuttle Tracker\CETA Shuttle Tracker\obj\Debug\CETA_Shuttle_Tracker.Properties.Resources.resources
+C:\Users\Smith\source\repos\CETA Shuttle Tracker\CETA Shuttle Tracker\obj\Debug\CETA Shuttle Tracker.csproj.GenerateResource.Cache
+C:\Users\Smith\source\repos\CETA Shuttle Tracker\CETA Shuttle Tracker\obj\Debug\CETA Shuttle Tracker.csproj.CoreCompileInputs.cache
+C:\Users\Smith\source\repos\CETA Shuttle Tracker\CETA Shuttle Tracker\obj\Debug\CETA Shuttle Tracker.exe
+C:\Users\Smith\source\repos\CETA Shuttle Tracker\CETA Shuttle Tracker\obj\Debug\CETA Shuttle Tracker.pdb
+C:\Users\Smith\source\repos\CETA Shuttle Tracker\CETA Shuttle Tracker\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Smith\source\repos\CETA Shuttle Tracker\CETA Shuttle Tracker\obj\Debug\CETA_Shuttle_Tracker.SplashScreen.resources
