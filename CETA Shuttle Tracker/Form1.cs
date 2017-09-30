@@ -21,21 +21,22 @@ namespace CETA_Shuttle_Tracker
             InitializeComponent();
             t.Abort();
 
-            //Makes the main screen visable and and loads time and initializes a variable in settings
+            //Makes the main screen visable and loads time and date and initializes a variable in settings
             MainScreen.Visible = true;
             label4.Text = "1";
             Timer();
             
 
         }
+        //Takes syetem date and time displays it to text
         public void Timer()
         {
             DateTimer.Start();
            label12.Text = DateTime.Now.ToLongDateString();
             TimeText.Text = DateTime.Now.ToLongTimeString();
-            
         }
 
+        //Starts the splash Screen
         public void StartForm()
         {
             Application.Run(new SplashScreen());
@@ -55,7 +56,7 @@ namespace CETA_Shuttle_Tracker
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Application.Exit(); //Exits the application
         }
 
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
@@ -74,12 +75,14 @@ namespace CETA_Shuttle_Tracker
 
         }
 
+        //Makes setting screen visible and main screen invisible
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
         {
             panel1.Visible = true;
             MainScreen.Visible = false;
         }
 
+        //makes Settings screen invisible and main screen visible
         private void button1_Click(object sender, EventArgs e)
         {
             panel1.Visible = false;
@@ -111,6 +114,7 @@ namespace CETA_Shuttle_Tracker
 
         }
 
+        //changes time every second
         private void DateTimer_Tick(object sender, EventArgs e)
         {
             label12.Text = DateTime.Now.ToLongDateString();
