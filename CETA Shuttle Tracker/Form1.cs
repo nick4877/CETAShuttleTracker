@@ -31,9 +31,10 @@ namespace CETA_Shuttle_Tracker
         //Takes syetem date and time displays it to text
         public void Timer()
         {
-            DateTimer.Start();
+           DateTimer.Start();
            label12.Text = DateTime.Now.ToLongDateString();
-            TimeText.Text = DateTime.Now.ToLongTimeString();
+           TimeText.Text = DateTime.Now.ToLongTimeString();
+            //DataReciever();
         }
 
         //Starts the splash Screen
@@ -42,7 +43,13 @@ namespace CETA_Shuttle_Tracker
             Application.Run(new SplashScreen());
         }
 
-        
+        // TODO
+        ///Public void DataReciever()
+        ///{
+        /// the application will recieve data from GPS trasmitter
+        /// the main application will create a maps overlay and start tracking the shuttle
+        /// 
+        ///}
 
         private void Form1_Load(object sender, EventArgs e)
         {
