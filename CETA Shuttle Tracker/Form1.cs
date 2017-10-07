@@ -68,7 +68,7 @@ namespace CETA_Shuttle_Tracker
 
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Application.Exit();// Exits the application
             
         }
 
@@ -101,6 +101,7 @@ namespace CETA_Shuttle_Tracker
 
         }
 
+        // Gets value from scroll bar and displays it
         private void trackBar1_Scroll(object sender, EventArgs e)
         {
             label4.Text = trackBar1.Value.ToString();
@@ -118,7 +119,7 @@ namespace CETA_Shuttle_Tracker
 
         private void Form1_Load_1(object sender, EventArgs e)
         {
-
+            
         }
 
         //changes time every second
